@@ -1,0 +1,25 @@
+
+
+*,body {  
+    /* background-color: rgb(230, 229, 173);   */
+}   
+h1{  
+    /* background-color: rgb(0, 128, 0);   */
+    margin-left: 300px;
+}   
+
+.ShoppingList a{
+    text-align:right;
+
+}
+/* a:link{color:#00F}  haven't been visited */
+nav a:hover{font-weight:bold}
+/* a:visited{color:#F00} */
+
+/* hover action for shopping list*/
+nav ul{display:none}
+nav:hover   ul{display:block}
+
+
+
+/*update cash value in shopping list*/
