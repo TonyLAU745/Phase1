@@ -1,20 +1,46 @@
 
 
-*,body {  
-    /* background-color: rgb(230, 229, 173);   */
-}   
+*{  
+    background-color: rgb(230, 229, 173);
+    margin:0%;
+    padding:0%;  
+} 
+
 h1{  
-    /* background-color: rgb(0, 128, 0);   */
-    margin-left: 300px;
+    text-align: center;
 }   
 
-.ShoppingList a{
-    text-align:right;
 
-}
 /* a:link{color:#00F}  haven't been visited */
-nav a:hover{font-weight:bold}
 /* a:visited{color:#F00} */
+
+nav a:hover{font-weight:bold}
+
+nav{
+    font-size: 1.1em;
+    padding-left: 1.0em;
+}
+.ShoppingList {
+    position: absolute;
+    top: 1em;
+    right: 0;
+}
+.ShoppingList  *{
+    color: brown;
+    padding-right: 1.0em;
+    font-size: 1.2em;     
+}
+
+.CopyRight {
+    position: absolute;
+    bottom: 0; 
+    padding-left: 1.0em;
+}
+.CopyRight a{
+    position: relative;
+    left: 1.0em;
+}
+
 
 /* hover action for shopping list*/
 nav ul{display:none}
