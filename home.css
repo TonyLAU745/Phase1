@@ -30,7 +30,6 @@ h1{
     clear: both;
 }
 
-nav a:hover{font-weight:bold}
 
 nav{
     font-size: 1.1em;
@@ -63,7 +62,7 @@ nav{
     text-decoration:underline;
 }
 .BtnAdd{
-    background-color: #6177d8;
+    background-color:#121214 ;
     color: white;
     padding: 10px 15px;
     text-align: center;
@@ -72,27 +71,36 @@ nav{
     cursor: pointer;
     text-decoration:none;
 }
+
+nav a:hover{font-weight:bold}
 /* hover action for shopping list*/
 nav ul{
     display: none;
 }
-button{
+.BtnCheck{
     display: none;
 }
 nav:hover ul{
     display: block;
 }
-nav:hover button{
+nav:hover, .BtnCheck{
     display: block;
 }
 
 .product{
+    clear:both;
     float: left;
+}
+
+.product:hover .BtnAdd{
+    text-decoration:underline;
+    background-color: #6177d8;
 }
 .CopyRight {
     float:left;
     bottom: 0; 
     padding-left: 1.0em;
+    padding-top: 1.0em;
 }
 .CopyRight a{
     position: relative;
