@@ -4,15 +4,31 @@
     background-color: rgb(230, 229, 173);
     margin:0%;
     padding:0%;  
+    border: 0;    
 } 
 
 h1{  
     text-align: center;
+    margin:auto;
 }   
 
+.Catogery{
+    padding: 1.5em;
+    width: auto;
+    font-size: 1.2em;
+    float:left;
+}
 
-/* a:link{color:#00F}  haven't been visited */
-/* a:visited{color:#F00} */
+.content{
+    width: auto;
+    padding: 1.5em;
+    margin: auto; 
+    float:left;
+}
+
+.h1, .CopyRight{
+    clear: both;
+}
 
 nav a:hover{font-weight:bold}
 
@@ -36,7 +52,7 @@ nav{
     padding-right: 1.0em;
     font-size: 1.2em;     
 }
-.button{
+.BtnCheck{
     background-color: #4CAF50;
     color: white;
     padding: 15px 32px;
@@ -46,7 +62,16 @@ nav{
     cursor: pointer;
     text-decoration:underline;
 }
-
+.BtnAdd{
+    background-color: #6177d8;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration:none;
+}
 /* hover action for shopping list*/
 nav ul{
     display: none;
@@ -60,14 +85,12 @@ nav:hover ul{
 nav:hover button{
     display: block;
 }
-/* ?????? */
-/* nav:hover 
-ul,nav button{
-    display:block
-} */
 
+.product{
+    float: left;
+}
 .CopyRight {
-    position: absolute;
+    float:left;
     bottom: 0; 
     padding-left: 1.0em;
 }
