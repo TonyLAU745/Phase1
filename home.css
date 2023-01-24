@@ -64,7 +64,7 @@ nav{
 .BtnAdd{
     background-color:#121214 ;
     color: white;
-    padding: 10px 15px;
+    padding: 8px 12px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -72,8 +72,27 @@ nav{
     text-decoration:none;
 }
 
+.product{
+    clear:both;
+    float: left;
+    margin-left: 2em;
+}
+.ProdDescp{
+    font-size: larger;
+}
+.product{
+    position: relative;
+}
+.thumbsup{
+    position: absolute;
+    top:0;
+    right:0;
+    opacity:0.3;
+}
+
+/* hover action */
 nav a:hover{font-weight:bold}
-/* hover action for shopping list*/
+
 nav ul{
     display: none;
 }
@@ -83,19 +102,19 @@ nav ul{
 nav:hover ul{
     display: block;
 }
-nav:hover, .BtnCheck{
+nav:hover .BtnCheck{
     display: block;
-}
-
-.product{
-    clear:both;
-    float: left;
 }
 
 .product:hover .BtnAdd{
     text-decoration:underline;
     background-color: #6177d8;
 }
+
+.thumbsup:hover{
+    opacity: 1;
+}
+
 .CopyRight {
     float:left;
     bottom: 0; 
