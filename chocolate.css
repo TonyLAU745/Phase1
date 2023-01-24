@@ -62,7 +62,9 @@ nav{
     cursor: pointer;
     text-decoration:underline;
 }
-.BtnAdd1, .BtnAdd2{
+
+
+.BtnAdd1{
     background-color:#121214 ;
     color: white;
     padding: 8px 12px;
@@ -73,6 +75,10 @@ nav{
     text-decoration:none;
 }
 
+.price{
+    font-size: 1.3em;
+    color:crimson;
+}
 .product{
     clear:both;
     float: left;
@@ -81,19 +87,12 @@ nav{
 .ProdDescp{
     font-size: larger;
 }
+.inventory{
+    font-size: 1.2em;
+    color: #4CAF50;
+    font-style: italic;
+}
 
-.thumbsup1{
-    position: absolute;
-    top:140px;
-    left:190px;
-    opacity:0.3;
-}
-.thumbsup2{
-    position: absolute;
-    top:140px;
-    left:390px;
-    opacity:0.3;
-}
 /* hover action */
 nav a:hover{font-weight:bold}
 
@@ -114,16 +113,11 @@ nav:hover .BtnCheck{
     text-decoration:underline;
     background-color: #6177d8;
 }
-.product .RedWine:hover .BtnAdd2{
-    text-decoration:underline;
-    background-color: #6177d8;
-}
+
 .thumbsup1:active{
     opacity: 1;
 }
-.thumbsup2:active{
-    opacity: 1;
-}
+
 
 
 .CopyRight {
@@ -140,8 +134,3 @@ nav:hover .BtnCheck{
 }
 
 
-
-
-
-/*clicked thumsup stay red*/
-/*update cash value in shopping list*/
