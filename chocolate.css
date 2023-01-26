@@ -1,7 +1,7 @@
 
 
-*{  
-    background-color: rgb(230, 229, 173);
+body {
+    background-color: rgb(230, 229, 173) !important;
     margin:0%;
     padding:0%;  
     border: 0;  
