@@ -86,7 +86,7 @@ nav{
 }
 
 
-.BtnAdd1{
+.BtnAdd3{
     background-color:#121214 ;
     color: white;
     padding: 8px 12px;
@@ -131,10 +131,12 @@ nav:hover .BtnCheck{
     display: block;
 }
 
-.product .chocolate:hover .BtnAdd1{
+.product .salmon:hover .BtnAdd3{
     text-decoration:underline;
     background-color: #6177d8;
 }
+
+
 
 .CopyRight {
     position: absolute;
