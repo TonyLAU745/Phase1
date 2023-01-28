@@ -104,24 +104,21 @@ nav{
     font-size: larger;
 }
 
-.thumbsup1{
+
+.chocolate, .RedWine, .salmon{
+    position:relative;
+}
+.thumbsup{
     position: absolute;
-    top:200px;
-    left:220px;
+    top:30px;
+    right:30px;
     opacity:0.3;
 }
-.thumbsup2{
-    position: absolute;
-    top:200px;
-    left:470px;
-    opacity:0.3;
+.thumbsup:active{
+    opacity: 1;
 }
-.thumbsup3{
-    position: absolute;
-    top:200px;
-    left:720px;
-    opacity:0.3;
-}
+
+
 /* hover action */
 nav a:hover{font-weight:bold}
 
@@ -131,6 +128,7 @@ nav ul{
 .BtnCheck{
     display: none;
 }
+
 nav:hover ul{
     display: block;
 }
@@ -150,15 +148,17 @@ nav:hover .BtnCheck{
     text-decoration:underline;
     background-color: #6177d8;
 }
-.thumbsup1:active{
-    opacity: 1;
+
+/*hover on Food nav. o show 3 food*/
+.FoodCat{
+    display: none;
 }
-.thumbsup2:active{
-    opacity: 1;
+.Food:hover .FoodCat{
+    color: #4CAF50;
 }
-.thumbsup3:active{
-    opacity: 1;
-}
+
+
+
 
 .CopyRight {
     position: absolute;
